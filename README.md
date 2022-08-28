@@ -19,13 +19,13 @@ This package: not released yet
 
 ### To publish it to a local NuGet libray ###
 To add the package:
-1. nuget add <path to .nupkg file> -source <path to local NuGet feed> 
+1. nuget add "path to .nupkg file" -source "path to local NuGet feed"
 
 To remove the package:
-1. nuget delete Coralogix.SDK.Signed x.x.x -source <path to local NuGet feed>
+1. nuget delete Coralogix.SDK.Signed x.x.x -source "path to local NuGet feed"
 
 ### If you want to publish it on NuGet ###
 1. Purchase a code signing certificate 
 1. Register the certificate on nuget.org under your account 
-1. nuget sign <path to .nupkg file> -CertificateFingerPrint <your certificate fingerprint> -Timestamper <url to timetamper>
+1. nuget sign "path to .nupkg file" -CertificateFingerPrint "your certificate fingerprint" -Timestamper "url to timetamper"
 1. Upload the .nupkg file on nuget.org 
