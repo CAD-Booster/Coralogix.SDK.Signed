@@ -5,7 +5,7 @@ Inspired by the signed version of [Flurl](https://github.com/ellenfieldn/Flurl.S
 
 ## NuGet Packages ##
 Official, unsiged version: [Coralogix.SDK](https://www.nuget.org/packages/Coralogix.SDK)<br/>
-This package: not released yet
+This package: [Coralogix.SDK.Signed](https://www.nuget.org/packages/Coralogix.SDK.Signed/1.1.9)
 
 ## Caveats
 * We do not own the copyright of this code and we are not affiliated with Coralogix in any way. We asked them for a signed version but it wasn't a priority for them, so we created our own for the time being.
