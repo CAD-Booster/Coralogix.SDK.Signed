@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Coralogix.SDK.Signed</id>
+    <version>1.1.9</version>
+    <authors>Coralogix</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/CAD-Booster/Coralogix.SDK.Signed</projectUrl>
+    <description>The Coralogix.SDK NuGet package repackaged with signed assemblies. See https://coralogix.com/ for the official project.</description>
+    <releaseNotes>Bug fixes, Faster and more reliable.</releaseNotes>
+    <copyright>Copyright belongs to Coralogix</copyright>
+    <tags>Logs Coralogix Analytic Big Data Machine Learning Cloud SAAS</tags>
+	<dependencies>
+      <group targetFramework=".NETFramework3.5" />
+    </dependencies>
+  </metadata>
+</package>
