@@ -3,6 +3,9 @@ If you're stuck needing strong-named assemblies, but you still want to use Coral
 
 Inspired by the signed version of [Flurl](https://github.com/ellenfieldn/Flurl.Signed)
 
+> [!NOTE]
+> This repository is archived because Coralogix deprecated the hardcoded endpoint that this package uses. The endpoint will stop working on December 12th, 2025. Their official recommendation is to stop using their own SDKs altogether and start using OpenTelemetry with the [OpenTelemetry.Exporter.OpenTelemetryProtocol](https://www.nuget.org/packages/OpenTelemetry.Exporter.OpenTelemetryProtocol/) package.
+
 ## NuGet Packages ##
 Official, unsiged version: [Coralogix.SDK](https://www.nuget.org/packages/Coralogix.SDK)<br/>
 This package: [Coralogix.SDK.Signed](https://www.nuget.org/packages/Coralogix.SDK.Signed/1.1.9)
